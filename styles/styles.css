@@ -1125,15 +1125,19 @@ img {
   list-style-type: none;
 }
 
+.catalog-item:focus-within .subcatalog {
+  display: flex;
+}
+
+.subcatalog-list-item:last-child {
+  margin-left: 12px;
+}
+
 .subcatalog-list {
   margin: 0;
   margin-right: 59px;
   padding: 0;
   list-style-type: none;
-}
-
-.subcatalog-list-item:last-child {
-  margin-left: 12px;
 }
 
 .subcatalog-item:not(:last-child) {
@@ -1164,10 +1168,6 @@ img {
 
 .subcatalog-link-current {
   border-bottom: 1px solid var(--basic-black);
-}
-
-.catalog-item:focus-within .subcatalog {
-  display: flex;
 }
 
 /* Main index */
@@ -1797,6 +1797,7 @@ img {
 }
 
 .footer-phone {
+  display: block;
   margin: 78px 0 62px;
   font-style: normal;
   font-size: 16px;
