@@ -1230,6 +1230,7 @@ img {
 
 .slider-image {
   z-index: 0;
+  flex-shrink: 0;
   width: 560px;
   height: 560px;
   margin-top: -40px;
@@ -1259,7 +1260,7 @@ img {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  max-width: 460px;
+  max-width: 360px;
   margin: 0;
   margin-top: 47px;
 }
@@ -1296,7 +1297,7 @@ img {
   display: flex;
   gap: 0 20px;
   flex-wrap: wrap;
-  max-width: 300px;
+  max-width: 190px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1393,7 +1394,7 @@ img {
   display: flex;
   margin-bottom: 70px;
   padding-bottom: 72px;
-  background: linear-gradient(to bottom, transparent 102px, var(--basic-light) 102px);
+  background-image: linear-gradient(to bottom, transparent 102px, var(--basic-light) 102px);
 }
 
 .services-container {
@@ -2281,15 +2282,12 @@ img {
   justify-content: center;
   width: 60px;
   height: 60px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
   border: 2px solid rgba(0, 0, 0, 0.6);
   border-radius: 50%;
+  background-image: url("../images/icons/new.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .product-image {
