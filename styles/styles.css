@@ -199,7 +199,7 @@ img {
 
 .cart-link-button[disabled] {
   color: rgba(0, 0, 0, 0.3);
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -296,7 +296,7 @@ img {
 .button-main:disabled,
 .button-main[disabled] {
   opacity: 0.3;
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -327,7 +327,7 @@ img {
 
 .slider-button:disabled {
   opacity: 0.1;
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -366,7 +366,7 @@ img {
 
 .slider-pagination-button:disabled {
   opacity: 0.1;
-  cursor: default;
+  pointer-events: none;
 }
 
 .slider-pagination-button-current {
@@ -508,7 +508,7 @@ img {
 
 .newsletter-button:disabled {
   opacity: 0.3;
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -625,8 +625,8 @@ img {
 }
 
 .amount-change:disabled {
-  cursor: default;
   opacity: 0.3;
+  pointer-events: none;
 }
 
 .amount-change::before {
@@ -746,7 +746,7 @@ img {
 
 .load-more-button:disabled {
   opacity: 0.3;
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -2184,7 +2184,7 @@ img {
 .control-input:disabled ~ .check-icon,
 .control-input:disabled ~ .control-label {
   opacity: 0.1;
-  cursor: default;
+  pointer-events: none;
 }
 
 
@@ -2244,7 +2244,7 @@ img {
 
 .select-control:disabled {
   opacity: 0.1;
-  cursor: default;
+  pointer-events: none;
 }
 
 .sort-button-wrapper {
@@ -2467,7 +2467,7 @@ img {
 
 .field:disabled {
   opacity: 0.3;
-  cursor: default;
+  pointer-events: none;
 }
 
 .field:invalid {
